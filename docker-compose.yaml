@@ -1,0 +1,8 @@
+services:
+  valhalla:
+    build: .
+    image: valhalla-image
+    # restart: always
+    container_name: valhalla_oo
+    ports:
+      - "8004:8002"
